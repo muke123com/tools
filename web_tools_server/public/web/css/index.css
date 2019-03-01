@@ -1,0 +1,16 @@
+.transform-box{
+
+}
+.transform-box .tab{
+
+}
+.transform-box .tab a{
+    display: inline-block;
+    width: 120px;
+    line-height: 30px;
+    text-align: center;
+}
+.transform-box .tab a.active{
+    color: #fff;
+    background-color: #ff7200;
+}
