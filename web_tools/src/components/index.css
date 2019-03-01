@@ -1,0 +1,42 @@
+.transform-box{
+    background-color: #fff;
+}
+.transform-box .tab {
+    padding-left: 10px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+.transform-box .tab a{
+    display: inline-block;
+    width: 120px;
+    line-height: 30px;
+    text-align: center;
+}
+.transform-box .tab a.active{
+    color: #fff;
+    background-color: #ff7200;
+}
+.transform-box .content{
+    font-size: 0;
+}
+.transform-box .content .box{
+    display: inline-block;
+    padding: 10px;
+    width: 50%;
+    height: 300px;
+    font-size: 14px;
+}
+.transform-box .content .box textarea{
+    width: 100%;
+    height: 100%;
+    resize: none;
+}
+.transform-box .btns{
+    margin-top: 30px;
+}
+.transform-box .btns .button{
+    margin-right: 10px;
+}
+.transform-box .btns .button:last-of-type{
+    margin-right: 0;
+}
